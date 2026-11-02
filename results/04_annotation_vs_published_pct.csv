@@ -1,0 +1,13 @@
+"","B-cells","CAFs","Cancer Epithelial","Endothelial","Myeloid","Normal Epithelial","Plasmablasts","PVL","T-cells"
+"B cells",97,0,0,0,2,0,0,0,0
+"CAFs",0,92,8,0,0,0,0,1,0
+"Doublets?",0,2,79,0,0,7,0,12,0
+"Endothelial",0,0,0,99,0,0,0,0,0
+"Epithelial",0,0,87,0,0,12,0,0,1
+"Low quality?",0,1,44,34,2,0,0,0,17
+"Myeloid",1,0,0,0,99,0,0,0,0
+"Plasma cells",2,0,0,0,0,0,96,0,2
+"PVL",0,4,0,0,0,0,0,95,0
+"T cells",0,0,0,0,0,0,0,0,100
+"Unclear (ACTA2+)",0,0,5,0,0,94,0,0,0
+"Unclear (vascular)",0,0,0,98,0,0,0,2,0

@@ -1,0 +1,11 @@
+# Data (large files; download from GEO GSE176078, see README)
+data/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
