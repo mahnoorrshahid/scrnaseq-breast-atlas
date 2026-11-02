@@ -32,7 +32,7 @@ Reanalysis of the Wu et al. (2021) single-cell RNA-seq atlas of 26 primary breas
 
 **Clustering.** A nearest-neighbour graph was built on Harmony dimensions 1–30. Resolutions 0.4–1.0 were compared with clustree; 0.8 (29 clusters) was the highest resolution at which major clusters remained stable.
 
-**Annotation.** Clusters were labelled using canonical markers (EPCAM/KRT19, PTPRC, CD3E, MS4A1, MZB1/JCHAIN, CD68, PECAM1, COL1A1, RGS5/ACTA2, MKI67). Ambiguous clusters were resolved with a second marker panel and comparison to the published labels. Two small clusters were excluded: one with mixed, low-quality profiles and one co-expressing epithelial and perivascular markers (likely residual doublets).
+**Annotation.** Clusters were labelled using canonical markers (EPCAM/KRT19, PTPRC, CD3E, MS4A1, MZB1/JCHAIN, CD68, PECAM1, COL1A1, RGS5/ACTA2, MKI67). Ambiguous clusters were resolved with a second marker panel and comparison to the published labels. Three small clusters were excluded: two with mixed, low-quality profiles and one co-expressing epithelial and perivascular markers (likely residual doublets). Dividing cells (MKI67+) were not treated as a separate cell type; they were labelled by their lineage (e.g. dividing T cells as T cells).
 
 | Cell type | Agreement with published labels |
 | --- | --- |
@@ -43,7 +43,10 @@ Reanalysis of the Wu et al. (2021) single-cell RNA-seq atlas of 26 primary breas
 | B cells | 97% |
 | Plasma cells | 96% |
 | PVL | 95% |
+| Normal epithelial (myoepithelial)* | 94% |
 | CAFs | 92% |
+
+\* This cluster expressed only ACTA2 among the first-pass markers, so its final label was assigned using the published labels (94% "Normal Epithelial") together with its own top markers (KRT14, KRT5, OXTR). Its agreement is therefore not an independent check in the way the other rows are.
 
 **Compositional analysis.** For each tumour, the fraction of cells in each cell type was calculated (absent cell types counted as 0). Fractions were compared across ER+, HER2+ and TNBC with Kruskal–Wallis tests and Benjamini–Hochberg correction. Because epithelial capture varied widely between tumours, an exploratory second analysis expressed immune cell types as a fraction of immune cells only.
 
